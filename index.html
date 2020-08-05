@@ -1,0 +1,808 @@
+<!Doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<style>
+                  #demo,#demo1{
+        display:none;
+    }
+h2 {
+    text-align: center;
+    color: #350663;
+    font-style: montserrat;
+}
+h4 {
+    text-align: center;
+}
+
+ .container {
+     text-align: center;
+  display: flex; 
+  width: 100%;
+  justify-content: center;
+}
+
+.but {
+  background: #99A3FF;
+  color: white;
+  border: 0;
+  padding: 9px 18px;
+  border-radius: 2px;
+}
+
+.bc {
+  padding: 40px 80px;
+  
+}
+
+.bc:not(:last-child) {
+  border-right: 1px solid #ddd;
+}
+  h1 {
+   color: #350663;
+  }
+  .ohki {
+    position: absolute;
+                padding-top: 30px;
+                padding-bottom: 90px;
+                left: 150px;
+                width: 350px;
+                height: 350px;
+                margin-left: 15px;
+  }
+  .review {
+     position: absolute;
+                padding-top: 200px;
+                padding-bottom: 0px;
+                left: 300px;
+                width: 400px;
+                height: 500px;
+                margin-left: 70px;
+                margin-right: 20px;
+  }
+  .pd
+            {
+              position: absolute;
+                padding-top: 100px;
+                padding-bottom: 0px;
+                left: 350px;
+                width: 350px;
+                height: 600px;
+                margin-left: 70px;
+            }
+     .personalized
+            {
+                position: absolute;
+                padding-top: 30px;
+                padding-bottom: 90px;
+                left: 100px;
+                width: 350px;
+                height: 350px;
+                margin-left: 15px;
+            }
+          
+           
+  .first {
+    text-align: center;
+  }
+   .first {
+                display: none;
+            }
+            .left-col {
+                 width: 50%;
+                 min-height: 200px;
+                 float: left;
+             }
+             .right-col {
+                 width: 50%;
+                 min-height: 200px;
+                 float: right;
+             }
+             
+
+  .btn {
+  
+    text-align: left;
+    color: black;
+  }
+  .navbar {
+    width: 1330px;
+   right: 100px;
+    padding-bottom: 10px;
+  } 
+  .que {
+  
+  text-align: center;
+      font-family: Montserrat;
+  
+  }
+  .esperso {
+    text-align: center;
+  }
+  .features {
+    margin-left: 20px;
+    text-align: center;
+      font-family: montserrat;
+     margin-right: 20px;
+  
+  }
+ .faq {
+   margin-left: 100px;
+ }
+     .price {
+                text-align: center;
+                 padding-top: 10%;
+                   color: grey;
+
+            }
+            * {box-sizing: border-box}
+            .card-body {
+              text-align: left;
+              color: white;
+              text-size-adjust: bold;
+
+            }
+
+body {
+ 
+  font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1100px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 20s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 90s;
+  animation-name: fade;
+  animation-duration: 20s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+      
+    </style>
+  </head>
+  <body>
+    <div class="slider">
+      
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="slide01 (1).png" style="width:100%">
+    <div class="text"></div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="slide02.png" style="width:100%">
+    <div class="text"></div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="slide03.png" style="width:100%">
+    <div class="text"></div>
+  </div>
+  
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+  
+  <script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
+    </div>
+ 
+    <div class="esperso">
+    <div class="features">
+      <h1>COURSE DETAILS</h1>
+    </div>
+    <br>
+    <br>
+    <p>English esperso offers courses for 3rd-12th class students.</p>
+    <p>Our curiculum includes activites like pecha-kuch,show and tell,word race,Impromptu speech,phonetics,Personality developement,Confidencebuild-up sessions,etc to learn everything from reading,writing,listening,and speaking.Also, to provide personal attention to individuals , we only accomodate 6learners Batch.</p>
+    <br> 
+    <br>                      
+    
+    <div class="features">
+      <h1>COURSE FEATURES</h1>
+    </div>
+    <div class="one">
+    <div class="image1">
+      
+      <img src="Personalised Learning Image.png" class="personalized"/>
+    </div>
+    <br>
+    <br>
+    <br>
+     
+      <h2 style="padding-left: 500px;">Personality Development</h2>
+      <p style="padding-left: 500px;">At the beginning of the course,a SWOT least is conducted and is examined to design a personalized course for your child.Also,in order to provide personal attention to every child ,we only need accomodate 2-5 Learners in one batch. </p>
+    </div>
+    
+    
+    <div class="image2">
+      <img src="Language Experts Image.png" class="pd"/>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br> <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <br>
+    <br>
+    <br>
+      <h2 style="padding-left: 800px;">Highly Qualified Language Experts</h2>
+      <p style="padding-left: 800px;">Our academicteam comprises of English Experts who are DELTA,CELTA certified ,ph.d,scholars from IIT ,DU and premier institutes of the world. The pedagogy of our experts focuses on teaching our learners in natural form through discussions ,stories and real life scenarios. </p>
+   
+  </div>
+    
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+ 
+
+<div class="two">
+  <div class="one">
+    <div class="image1">
+      
+      <img src="Online Home Kit Image.png" class="ohki"/>
+    </div>
+      <img src="" class=""/>
+      <br>
+    
+
+      <h2 style="padding-left: 500px;">Online Home Kit</h2>
+      <p style="padding-left: 500px;">Exclusively designed by English Experts ,the kit includes 10 Novels 20 PDFs,40 Engaging worksheets and 25 videos curated to aid experimental learning for your child. </p>
+   
+    </div>
+    
+    
+    <div class="image2">
+      <img src="Review Classes Image.png" class="review"/>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br><br>
+      <br>
+      <br>
+      <h2 style="padding-left: 800px;">Review Classes</h2>
+      <p style="padding-left: 800px;">10 Feedback sessions and 8 continous assessement test at regular intervals are held with other experts so as to track there progress effenciency.</p>
+   
+    </div>
+  </div>
+</div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="two">
+      <div class="one">
+        <div class="image1">
+          
+          <img src="Daily Speaking Practice Image.png" class="ohki"/>
+        </div>
+          <img src="" class=""/>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <h2 style="padding-left: 500px;">Daily Speaking Practice</h2>
+          <p style="padding-left: 600px;">Each student is allotted a partner student for the practice of speaking the language.</p>
+       
+        </div>
+      
+   
+        
+        <div class="image2">
+          <img src="Review Classes Image.png" class="review"/>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <h2 style="padding-left: 800px;">Individual Performance report</h2>
+          <p style="padding-left: 800px;">Improvement report for continous evaluation and adaptive learning is communicated to learners after assessement tests.</p>
+       
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <div class="price">
+      <h2>Select Batch Size</h2>
+      <br>
+      <br>
+      <br>
+      <div class="container">
+        <div class="bc"><button class="but" type="button" onclick="myFunction()">2 learners</button>
+  
+          <br>
+          <br>
+          <br>
+          
+            
+      
+          <script>
+         
+              function myFunction() {
+                  document.getElementById("demo").style.display="block";
+                                  document.getElementById("demo1").style.display="none";
+  
+                    }    
+                    
+          </script>
+        </div>
+        <div class="bc"><button class="but" type="button" onclick="Function()">5 learners</button>
+        
+          <br>
+          <br>
+          <br>
+          <div class="dis">
+  
+      
+  <script>
+      function Function() {
+          document.getElementById("demo1").style.display="block";
+                  document.getElementById("demo").style.display="none";
+  
+            }
+           
+  </script>
+          </div>
+        </div>
+      </div>
+          
+               
+       <div class="container" id="demo">
+  <button class="but" type="button" >Rapid course       16000Rs.</button><br><br>
+                  <button class="but" type="button" > crash course       21000Rs</button>  
+                  
+              </div>
+      <div class="container" id="demo1">
+  <button class="but" type="button" >Rapid course       7200Rs.</button><br><br>
+                  <button class="but" type="button" > crash course       9600Rs</button>  
+                  
+              </div>
+          <br>
+              <br>
+              <br>
+              <br>
+              <h4>Select course to proceed to payment   <button class="button" type="button" onclick="alert">Pay now</button></h4>
+
+              <br>
+              <br>
+              <br>    
+      </div>
+    <br>
+   
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="faq">
+      <div class="que">
+        <div class="features">
+        <h1 style="font-size:50px;">FREQUENTLY ASKED QUESTIONS</h1>
+      </div>
+      </div>
+      <br>
+      <br>
+
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #33BBFF";>
+          <a class="navbar-brand" href="#"></a>
+       
+       
+       <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" style="color: white;" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              
+                <b>  <li><i>  What is your batch size?</i></li></b>
+                </button>
+              </h2>
+            </div>
+        
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+      <i>We offer two types of batches with a batch size of 2 and 5 students. For more information please check our course page. </i> 
+
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <br>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #33BBFF";>
+          <a class="navbar-brand" href="#"></a>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" style="color: white;" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                 <b> <li><i>Who is eligible for the course? </i></li></b>
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                <i>Any student studying in 3-12th standard from all boards (CBSE, ICSE, and State) is eligible for the course.</i>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <br>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #33BBFF";>
+          <a class="navbar-brand" href="#"></a>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" style="color: white;" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <b><li> <i> What’s the difference between crash and full course?</i></li></b> 
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                <i> The duration of Full course is 6 months and provides 72 hours of English classes with 12 classes per month. Whereas, the duration of crash course is 4 months and provides 48 hours of English classes with 16 classes per month. For more assistance, talk to out counsellor here- 123456789</i>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <br>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #33BBFF";>
+          <a class="navbar-brand" href="#"></a>
+          <div class="card">
+              <div class="card-header" id="headingtwelve">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left collapsed" type="button" style="color: white;" data-toggle="collapse" data-target="#collapsetwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                   <b> <li><i> How do we register for the course?</i></li></b>
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseTwelve" class="collapse" aria-labelledby="headingtwelve" data-parent="#accordionExample">
+                <div class="card-body">
+               <i>Kindly follows these 2 steps. Choose the best course for your child and pay through our payment gateway. </i>
+              </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <br>
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #33BBFF";>
+            <a class="navbar-brand" href="#"></a>
+            <div class="card">
+              <div class="card-header" id="headingfour">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left collapsed" type="button" style="color: white;" data-toggle="collapse" data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                     <b> <li><i>Will there be any homework?</i></li></b>
+
+                  </button>
+                </h2>
+              </div>
+              <div id="collapsefour" class="collapse" aria-labelledby="headingfour" data-parent="#accordionExample">
+                <div class="card-body">
+                  <i> Yes, our English experts recommend homework at regular Intervals. The homeworks are aimed to encourage English practice and overall personality development of the learner. But, we make sure that the homework does not elicit stress for the students and their parents </i>
+              </div>
+              </div>
+            </div>
+            
+          </nav>
+        </div>
+        <br>
+      <div class="container">
+        <nav class="navbar navbar-lg navbar-light bg-light" style="background-color: #33BBFF";>
+          <a class="navbar-brand" href="#"></a>
+          <div class="card">
+            <div class="card-header" id="headingfive">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" style="color: white;" data-toggle="collapse" data-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                  <b> <li><i>How many tests during the course?</i> </li> </b> 
+                </button>
+              </h2>
+            </div>
+            <div id="collapsefive" class="collapse" aria-labelledby="headingfive" data-parent="#accordionExample">
+              <div class="card-body">
+               <i> We take a preliminary test before the start of the course to know the strengths and weaknesses of the child. During the course, we take 6-8 other tests which are designed by our English experts for continuous evaluation and development.</i> 
+            </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <br>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #33BBFF";>
+          <a class="navbar-brand" href="#"></a>
+          <div class="card">
+            <div class="card-header" id="headingsix">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" style="color: white;" data-toggle="collapse" data-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                 <b> <li><i> How qualified are the English language teachers?</i> </li>    </b>  
+                                 </button>
+              </h2>
+            </div>
+        
+            <div id="collapsesix" class="collapse" aria-labelledby="headingsix" data-parent="#accordionExample">
+              <div class="card-body">
+              <i> Our academic team comprises of English language experts who are CELTA Certified, PHD scholars from IIT, DU and premier Institutes of the world. </i> 
+            </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <br>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #33BBFF";>
+          <a class="navbar-brand" href="#"></a>
+          <div class="card">
+            <div class="card-header" id="headingseven">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" style="color: white;" data-toggle="collapse" data-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
+                 <b> <li><i>How do you hire a English language teacher?  </i> </li>    </b>  
+                                 </button>
+              </h2>
+            </div>
+        
+            <div id="collapseseven" class="collapse" aria-labelledby="headingseven" data-parent="#accordionExample">
+              <div class="card-body">
+              <i>We follow the following process while hiring an English language expert.  We choose the best profiles from India considering their publications, certifications and overall experience as an English language teacher.  After the internal screening,  a live demo is taken by our Senior team. </i> 
+            </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <br>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #33BBFF";>
+          <a class="navbar-brand" href="#"></a>
+          <div class="card">
+            <div class="card-header" id="headingeight">
+              <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" style="color: white;" data-toggle="collapse" data-target="#collapseeight" aria-expanded="false" aria-controls="collapseeight">
+             <b> <li> <i>  Can I pay in Installments?</i>   </li></b>
+                </button>
+              </h2>
+            </div>
+            <div id="collapseeight" class="collapse" aria-labelledby="headingeight" data-parent="#accordionExample">
+              <div class="card-body">
+               <i>Yes, you can pay in Installments as well as in a single payment.</i> 
+            </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <br>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #33BBFF";>
+          <a class="navbar-brand" href="#"></a>
+          <div class="card">
+              <div class="card-header" id="headingnine">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left collapsed" type="button" style="color: white;" data-toggle="collapse" data-target="#collapsenine" aria-expanded="false" aria-controls="collapsenine">
+                <b> <li><i>What all resources do I need to attend an Online English class? </i>   </li>    </b>                 </button>
+                </h2>
+              </div>
+              <div id="collapsenine" class="collapse" aria-labelledby="headingnine" data-parent="#accordionExample">
+                <div class="card-body">
+                   <i>You only need a proper Internet connection and a laptop/ tablet.</i> 
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <br>
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #33BBFF";>
+            <a class="navbar-brand" href="#"></a>
+            <div class="card">
+              <div class="card-header" id="headingten">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left collapsed" type="button" style="color: white;" data-toggle="collapse" data-target="#collapseten" aria-expanded="false" aria-controls="collapseten">
+                 <b> <li> <i> Will there be any extra charge for home-kit or any other charges? </i>   </li>      </b>             </button>
+                </h2>
+              </div>
+              <div id="collapseten" class="collapse" aria-labelledby="headingten" data-parent="#accordionExample">
+                <div class="card-body">
+                    <i> </i>                   </div>
+              </div>
+            </div>
+
+      </div>
+    </nav>
+  </div>
+  <br>
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #33BBFF";>
+            <a class="navbar-brand" href="#"></a>
+            <div class="card">
+              <div class="card-header" id="headingeleven">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left collapsed" type="button" style="color: white;" data-toggle="collapse" data-target="#collapseeleven" aria-expanded="false" aria-controls="collapseeleven">
+                 <b> <li> <i>Can I leave my child to use Curious World on their own?  </i>   </li>       </b>            </button>
+                </h2>
+              </div>
+              <div id="collapseeleven" class="collapse" aria-labelledby="headingeleven" data-parent="#accordionExample">
+                <div class="card-body">
+                    <i> Yes. Our course is easy and simple to use. Also, our English experts are well trained to handle the children on their own.  </i>                   </div>
+              </div>
+            </div>
+
+      </div>
+    </nav>
+  </div>
+    </div>
+    <br>
+          
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
