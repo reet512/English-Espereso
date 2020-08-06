@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <style>
+  
+  .price {
+    background-color: #b4acd5;
+  }
                   #demo,#demo1{
         display:none;
     }
@@ -25,7 +29,7 @@ h4 {
 }
 
 .but {
-  background: #99A3FF;
+  background: #350663;
   color: white;
   border: 0;
   padding: 9px 18px;
@@ -37,40 +41,44 @@ h4 {
   
 }
 
-.bc:not(:last-child) {
-  border-right: 1px solid #ddd;
-}
+
   h1 {
    color: #350663;
+  }
+  .RC {
+    margin-left: 60px;
+  }
+  .firstthird {
+    margin-right: 60px;
   }
   .ohki {
     position: absolute;
                 padding-top: 30px;
                 padding-bottom: 90px;
                 left: 150px;
-                width: 350px;
-                height: 350px;
-                margin-left: 15px;
+                width: 300px;
+                height: 300px;
+                margin-left: 10px;
   }
   .review {
      position: absolute;
-                padding-top: 200px;
+                padding-top: 100px;
                 padding-bottom: 0px;
-                left: 300px;
-                width: 400px;
-                height: 500px;
-                margin-left: 70px;
-                margin-right: 20px;
+                right: 150px;
+                width: 300px;
+                height: 300px;
+                margin-right: 80px;
+                margin-left: 20px;
   }
   .pd
             {
               position: absolute;
-                padding-top: 100px;
+                padding-top: 70px;
                 padding-bottom: 0px;
-                left: 350px;
-                width: 350px;
-                height: 600px;
-                margin-left: 70px;
+                right: 100px;
+                width: 250px;
+                height: 400px;
+                margin-right: 70px;
             }
      .personalized
             {
@@ -78,8 +86,8 @@ h4 {
                 padding-top: 30px;
                 padding-bottom: 90px;
                 left: 100px;
-                width: 350px;
-                height: 350px;
+                width: 300px;
+                height: 300px;
                 margin-left: 15px;
             }
           
@@ -111,6 +119,7 @@ h4 {
     width: 1330px;
    right: 100px;
     padding-bottom: 10px;
+    
   } 
   .que {
   
@@ -145,180 +154,46 @@ h4 {
 
             }
 
-body {
- 
-  font-family: Verdana, sans-serif; margin:0}
-.mySlides {display: none}
-img {vertical-align: middle;}
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1100px;
-  position: relative;
-  margin: auto;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 20s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 90s;
-  animation-name: fade;
-  animation-duration: 20s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
-      
+.mySlides {display:none;}
     </style>
   </head>
   <body>
-    <div class="slider">
-      
-<div class="slideshow-container">
+   
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="Cover Page 1.png" style="width:1350px">
+  <img class="mySlides" src="Cover Page 2.png" style="width:1350px">
+  <img class="mySlides" src="Cover page 3.png" style="width:1350px">
+</div>
 
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="slide01 (1).png" style="width:100%">
-    <div class="text"></div>
-  </div>
-  
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="slide02.png" style="width:100%">
-    <div class="text"></div>
-  </div>
-  
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="slide03.png" style="width:100%">
-    <div class="text"></div>
-  </div>
-  
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-  
-  </div>
-  <br>
-  
-  <div style="text-align:center">
-    <span class="dot" onclick="currentSlide(1)"></span> 
-    <span class="dot" onclick="currentSlide(2)"></span> 
-    <span class="dot" onclick="currentSlide(3)"></span> 
-  </div>
-  
-  <script>
-  var slideIndex = 1;
-  showSlides(slideIndex);
-  
-  function plusSlides(n) {
-    showSlides(slideIndex += n);
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
   }
-  
-  function currentSlide(n) {
-    showSlides(slideIndex = n);
-  }
-  
-  function showSlides(n) {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    if (n > slides.length) {slideIndex = 1}    
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
-    }
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-  }
-  </script>
-    </div>
- 
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+ <br>
     <div class="esperso">
     <div class="features">
       <h1>COURSE DETAILS</h1>
     </div>
     <br>
     <br>
-    <p>English esperso offers courses for 3rd-12th class students.</p>
-    <p>Our curiculum includes activites like pecha-kuch,show and tell,word race,Impromptu speech,phonetics,Personality developement,Confidencebuild-up sessions,etc to learn everything from reading,writing,listening,and speaking.Also, to provide personal attention to individuals , we only accomodate 6learners Batch.</p>
+    <p><h5>English Espresso offers courses for 3rd-12th class students.
+    Our curriculum includes activities like Pecha-Kucha, show and tell, word race, Impromptu speech,</h5><h5>
+      phonetics, Personality development, Confidence build-up sessions, etc to learn everything from reading,
+      writing, listening, and speaking. Also, to provide personal attention</h5> to Individuals, we only accommodate 6
+      learners in 1 Batch.</p>
     <br> 
     <br>                      
     
@@ -331,14 +206,15 @@ img {vertical-align: middle;}
       <img src="Personalised Learning Image.png" class="personalized"/>
     </div>
     <br>
-    <br>
-    <br>
-     
-      <h2 style="padding-left: 500px;">Personality Development</h2>
-      <p style="padding-left: 500px;">At the beginning of the course,a SWOT least is conducted and is examined to design a personalized course for your child.Also,in order to provide personal attention to every child ,we only need accomodate 2-5 Learners in one batch. </p>
+    
+     <div class="firstthird">
+      <h2 style="padding-left: 400px;">Personality Development</h2>
+      <p style="padding-left: 400px;">At the beginning of the course, a SWOT test is conducted and is
+        examined to design a personalized course for your child. Also, in order to provide personal
+        attention to every child, we only accommodate 2-5 Learners in one batch. </p>
     </div>
     
-    
+  </div>
     <div class="image2">
       <img src="Language Experts Image.png" class="pd"/>
     </div>
@@ -347,29 +223,23 @@ img {vertical-align: middle;}
     <br>
     <br>
     <br> <br>
-    <br>
-    <br>
-    <br>
-    <br>
     
     <br>
-    <br>
-    <br>
-      <h2 style="padding-left: 800px;">Highly Qualified Language Experts</h2>
-      <p style="padding-left: 800px;">Our academicteam comprises of English Experts who are DELTA,CELTA certified ,ph.d,scholars from IIT ,DU and premier institutes of the world. The pedagogy of our experts focuses on teaching our learners in natural form through discussions ,stories and real life scenarios. </p>
-   
+   <div class="RC">
+      <h2 style="padding-right: 500px;">Highly Qualified Language Experts</h2>
+      <p style="padding-right: 500px;">Our Academic team comprises of English Experts who
+        are DELTA, CELTA certified, Ph.D. scholars from IIT, DU and premier institutes of the world. The
+        pedagogy of our experts focuses on teaching our learners in Natural form through discussions,
+        stories, and Real-life scenarios, etc.
+         </p>
+        </div>
   </div>
     
   </div>
   <br>
   <br>
   <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
+  
  
 
 <div class="two">
@@ -381,10 +251,11 @@ img {vertical-align: middle;}
       <img src="" class=""/>
       <br>
     
-
-      <h2 style="padding-left: 500px;">Online Home Kit</h2>
-      <p style="padding-left: 500px;">Exclusively designed by English Experts ,the kit includes 10 Novels 20 PDFs,40 Engaging worksheets and 25 videos curated to aid experimental learning for your child. </p>
-   
+      <div class="firstthird">
+      <h2 style="padding-left: 400px;">Online Home Kit</h2>
+      <p style="padding-left: 400px;">Exclusively designed by English Experts, the kit includes 10 Novels, 20 PDF’s,
+        40 Engaging Worksheets, and 25 Videos curated to aid experiential learning for your child.</p>
+      </div>
     </div>
     
     
@@ -396,27 +267,20 @@ img {vertical-align: middle;}
       <br>
       <br>
       <br>
+      
       <br>
-      <br>
-      <br>
-      <br><br>
-      <br>
-      <br>
-      <h2 style="padding-left: 800px;">Review Classes</h2>
-      <p style="padding-left: 800px;">10 Feedback sessions and 8 continous assessement test at regular intervals are held with other experts so as to track there progress effenciency.</p>
-   
+      <div class="RC">
+      <h2 style="padding-right: 500px;">Review Classes</h2>
+      <p style="padding-right: 600px;" style="margin-left: 40px;">10 Feedback sessions and 8 continuous assessment test at regular Intervals
+        are held with our experts so as to track their progress effectively</p>
+      </div>
     </div>
   </div>
 </div>
     <br>
     <br>
     <br>
-    <br>
-    <br>
-    
-    <br>
-    <br>
-    <br>
+   
     <br>
     <br>
     <div class="two">
@@ -428,12 +292,10 @@ img {vertical-align: middle;}
           <img src="" class=""/>
           <br>
           <br>
-          <br>
-          <br>
-          <br>
-          <br>
+         
           <h2 style="padding-left: 500px;">Daily Speaking Practice</h2>
-          <p style="padding-left: 600px;">Each student is allotted a partner student for the practice of speaking the language.</p>
+          <p style="padding-left: 600px;"> Each student is allotted a partner student for the practice of speaking
+            the language</p>
        
         </div>
       
@@ -448,13 +310,11 @@ img {vertical-align: middle;}
           <br>
           <br>
           <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <h2 style="padding-left: 800px;">Individual Performance report</h2>
-          <p style="padding-left: 800px;">Improvement report for continous evaluation and adaptive learning is communicated to learners after assessement tests.</p>
-       
+          <div class="RC">
+          <h2 style="padding-right: 600px;">Individual Performance report</h2>
+          <p style="padding-right: 600px;">Improvement report for continuous evaluation and adaptive
+            learning is communicated to learners after assessment tests.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -466,6 +326,9 @@ img {vertical-align: middle;}
     <br>
     <br>
     <br>
+    <br>
+    
+    <br>
     
     <div class="price">
       <h2>Select Batch Size</h2>
@@ -473,7 +336,7 @@ img {vertical-align: middle;}
       <br>
       <br>
       <div class="container">
-        <div class="bc"><button class="but" type="button" onclick="myFunction()">2 learners</button>
+        <div class="bc"><button class="but" type="button" onclick="myFunction()">BATCH OF 2 LEARNERS</button>
   
           <br>
           <br>
@@ -491,7 +354,7 @@ img {vertical-align: middle;}
                     
           </script>
         </div>
-        <div class="bc"><button class="but" type="button" onclick="Function()">5 learners</button>
+        <div class="bc"><button class="but" type="button" onclick="Function()">BATCH OF 5 LEARNERS</button>
         
           <br>
           <br>
@@ -526,20 +389,16 @@ img {vertical-align: middle;}
               <br>
               <br>
               <br>
-              <h4>Select course to proceed to payment   <button class="button" type="button" onclick="alert">Pay now</button></h4>
+              <h4 style="color: #350663;">Select course to proceed to payment   <button class="but" type="button" onclick="alert">Pay now</button></h4>
 
               <br>
               <br>
-              <br>    
+              <br>
+              <br> 
+              <br>   
       </div>
     <br>
-   
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+  
     <br>
 
     <div class="faq">
@@ -552,7 +411,7 @@ img {vertical-align: middle;}
       <br>
 
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #33BBFF";>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:  #350663";>
           <a class="navbar-brand" href="#"></a>
        
        
@@ -578,7 +437,7 @@ img {vertical-align: middle;}
       </div>
       <br>
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #33BBFF";>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:  #350663";>
           <a class="navbar-brand" href="#"></a>
           <div class="card">
             <div class="card-header" id="headingTwo">
@@ -598,7 +457,7 @@ img {vertical-align: middle;}
       </div>
       <br>
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #33BBFF";>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:  #350663";>
           <a class="navbar-brand" href="#"></a>
           <div class="card">
             <div class="card-header" id="headingThree">
@@ -618,7 +477,7 @@ img {vertical-align: middle;}
       </div>
       <br>
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #33BBFF";>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:  #350663";>
           <a class="navbar-brand" href="#"></a>
           <div class="card">
               <div class="card-header" id="headingtwelve">
@@ -638,7 +497,7 @@ img {vertical-align: middle;}
         </div>
         <br>
         <div class="container">
-          <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #33BBFF";>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:  #350663";>
             <a class="navbar-brand" href="#"></a>
             <div class="card">
               <div class="card-header" id="headingfour">
@@ -660,7 +519,7 @@ img {vertical-align: middle;}
         </div>
         <br>
       <div class="container">
-        <nav class="navbar navbar-lg navbar-light bg-light" style="background-color: #33BBFF";>
+        <nav class="navbar navbar-lg navbar-light bg-light" style="background-color:  #350663";>
           <a class="navbar-brand" href="#"></a>
           <div class="card">
             <div class="card-header" id="headingfive">
@@ -680,7 +539,7 @@ img {vertical-align: middle;}
       </div>
       <br>
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #33BBFF";>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:  #350663";>
           <a class="navbar-brand" href="#"></a>
           <div class="card">
             <div class="card-header" id="headingsix">
@@ -701,7 +560,7 @@ img {vertical-align: middle;}
       </div>
       <br>
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #33BBFF";>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:  #350663";>
           <a class="navbar-brand" href="#"></a>
           <div class="card">
             <div class="card-header" id="headingseven">
@@ -722,7 +581,7 @@ img {vertical-align: middle;}
       </div>
       <br>
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #33BBFF";>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:  #350663";>
           <a class="navbar-brand" href="#"></a>
           <div class="card">
             <div class="card-header" id="headingeight">
@@ -742,7 +601,7 @@ img {vertical-align: middle;}
       </div>
       <br>
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #33BBFF";>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:  #350663";>
           <a class="navbar-brand" href="#"></a>
           <div class="card">
               <div class="card-header" id="headingnine">
@@ -761,7 +620,7 @@ img {vertical-align: middle;}
         </div>
         <br>
         <div class="container">
-          <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #33BBFF";>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #350663";>
             <a class="navbar-brand" href="#"></a>
             <div class="card">
               <div class="card-header" id="headingten">
@@ -778,10 +637,10 @@ img {vertical-align: middle;}
 
       </div>
     </nav>
-  </div>
+  
   <br>
         <div class="container">
-          <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #33BBFF";>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color:  #350663">
             <a class="navbar-brand" href="#"></a>
             <div class="card">
               <div class="card-header" id="headingeleven">
