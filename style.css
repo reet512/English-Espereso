@@ -1,0 +1,161 @@
+.price {
+    background-color: #b4acd5;
+  }
+                  #demo,#demo1{
+        display:none;
+    }
+h2 {
+    text-align: center;
+    color: #350663;
+    font-style: montserrat;
+}
+
+
+ .container {
+     text-align: center;
+  display: flex; 
+  width: 100%;
+  justify-content: center;
+}
+
+.but {
+  background: #350663;
+  color: white;
+  border: 0;
+  padding: 9px 18px;
+  border-radius: 2px;
+}
+
+.bc {
+  padding: 40px 80px;
+  
+}
+
+
+  h1 {
+   color: #350663;
+  }
+  .RC {
+    margin-left: 60px;
+  }
+  .firstthird {
+    margin-right: 60px;
+  }
+  .ohki {
+    position: absolute;
+                padding-top: 30px;
+                padding-bottom: 90px;
+                left: 150px;
+                width: 300px;
+                height: 300px;
+                margin-left: 10px;
+  }
+  .review {
+     position: absolute;
+                padding-top: 100px;
+                padding-bottom: 0px;
+                right: 150px;
+                width: 300px;
+                height: 300px;
+                margin-right: 80px;
+                margin-left: 20px;
+  }
+  .pd
+            {
+              position: absolute;
+                padding-top: 70px;
+                padding-bottom: 0px;
+                right: 100px;
+                width: 250px;
+                height: 400px;
+                margin-right: 70px;
+            }
+     .personalized
+            {
+                position: absolute;
+                padding-top: 30px;
+                padding-bottom: 90px;
+                left: 100px;
+                width: 300px;
+                height: 300px;
+                margin-left: 15px;
+            }
+          
+           
+  .first {
+    text-align: center;
+  }
+   .first {
+                display: none;
+            }
+  .btn {
+  
+    text-align: left;
+    color: black;
+  }
+  .navbar {
+    width: 1330px;
+   right: 100px;
+    padding-bottom: 10px;
+    
+  } 
+  .que {
+  
+  text-align: center;
+      font-family: Montserrat;
+  
+  }
+  .esperso {
+    text-align: center;
+  }
+  .features {
+    margin-left: 20px;
+    text-align: center;
+      font-family: montserrat;
+     margin-right: 20px;
+  
+  }
+ .faq {
+   margin-left: 100px;
+ }
+     .price {
+                text-align: center;
+                 padding-top: 10%;
+                   color: grey;
+
+            }
+            * {box-sizing: border-box}
+            .card-body {
+              text-align: left;
+              color: white;
+              text-size-adjust: bold;
+
+            }
+
+
+.mySlides {display:none;}
+h3 {
+  color: #fff;
+
+}
+.footer-top {
+  background: #111;
+  padding: 80px 0;
+
+}
+.segment-one p {
+  line-height: 25px;
+  color: #999;
+
+}
+.segment-one h4 {
+  color: #fff;
+  letter-spacing: 2px;
+  margin: 10px 0;
+  margin-left: 3px;
+}
+.segment-four h4 {
+  color: #fff;
+  
+
+}
